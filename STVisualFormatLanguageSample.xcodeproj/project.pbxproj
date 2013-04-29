@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7381193172E1ABF00EB6BC5 /* STWithXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7381191172E1ABF00EB6BC5 /* STWithXibViewController.m */; };
+		B7381194172E1ABF00EB6BC5 /* STWithXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7381192172E1ABF00EB6BC5 /* STWithXibViewController.xib */; };
+		B7381197172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7381196172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.m */; };
+		B73811A0172E2ECA00EB6BC5 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = B738119F172E2ECA00EB6BC5 /* UIView+ST.m */; };
+		B75C07A7172DF91B00BF21A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75C07A6172DF91B00BF21A7 /* UIKit.framework */; };
+		B75C07A9172DF91B00BF21A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75C07A8172DF91B00BF21A7 /* Foundation.framework */; };
+		B75C07AB172DF91B00BF21A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75C07AA172DF91B00BF21A7 /* CoreGraphics.framework */; };
+		B75C07B1172DF91B00BF21A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B75C07AF172DF91B00BF21A7 /* InfoPlist.strings */; };
+		B75C07B3172DF91B00BF21A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C07B2172DF91B00BF21A7 /* main.m */; };
+		B75C07B7172DF91B00BF21A7 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C07B6172DF91B00BF21A7 /* STAppDelegate.m */; };
+		B75C07B9172DF91B00BF21A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B75C07B8172DF91B00BF21A7 /* Default.png */; };
+		B75C07BB172DF91B00BF21A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B75C07BA172DF91B00BF21A7 /* Default@2x.png */; };
+		B75C07BD172DF91B00BF21A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B75C07BC172DF91B00BF21A7 /* Default-568h@2x.png */; };
+		B75C07C0172DF91B00BF21A7 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C07BF172DF91B00BF21A7 /* STViewController.m */; };
+		B75C07C3172DF91B00BF21A7 /* STViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75C07C1172DF91B00BF21A7 /* STViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7381190172E1ABF00EB6BC5 /* STWithXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWithXibViewController.h; sourceTree = "<group>"; };
+		B7381191172E1ABF00EB6BC5 /* STWithXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWithXibViewController.m; sourceTree = "<group>"; };
+		B7381192172E1ABF00EB6BC5 /* STWithXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STWithXibViewController.xib; sourceTree = "<group>"; };
+		B7381195172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVisualFormatLanguageViewController.h; sourceTree = "<group>"; };
+		B7381196172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVisualFormatLanguageViewController.m; sourceTree = "<group>"; };
+		B738119E172E2ECA00EB6BC5 /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
+		B738119F172E2ECA00EB6BC5 /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
+		B75C07A3172DF91B00BF21A7 /* STVisualFormatLanguageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STVisualFormatLanguageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75C07A6172DF91B00BF21A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B75C07A8172DF91B00BF21A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B75C07AA172DF91B00BF21A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B75C07AE172DF91B00BF21A7 /* STVisualFormatLanguageSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STVisualFormatLanguageSample-Info.plist"; sourceTree = "<group>"; };
+		B75C07B0172DF91B00BF21A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B75C07B2172DF91B00BF21A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B75C07B4172DF91B00BF21A7 /* STVisualFormatLanguageSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STVisualFormatLanguageSample-Prefix.pch"; sourceTree = "<group>"; };
+		B75C07B5172DF91B00BF21A7 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		B75C07B6172DF91B00BF21A7 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		B75C07B8172DF91B00BF21A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B75C07BA172DF91B00BF21A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B75C07BC172DF91B00BF21A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B75C07BE172DF91B00BF21A7 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		B75C07BF172DF91B00BF21A7 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		B75C07C2172DF91B00BF21A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75C07A0172DF91B00BF21A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75C07A7172DF91B00BF21A7 /* UIKit.framework in Frameworks */,
+				B75C07A9172DF91B00BF21A7 /* Foundation.framework in Frameworks */,
+				B75C07AB172DF91B00BF21A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75C079A172DF91B00BF21A7 = {
+			isa = PBXGroup;
+			children = (
+				B75C07AC172DF91B00BF21A7 /* STVisualFormatLanguageSample */,
+				B75C07A5172DF91B00BF21A7 /* Frameworks */,
+				B75C07A4172DF91B00BF21A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75C07A4172DF91B00BF21A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75C07A3172DF91B00BF21A7 /* STVisualFormatLanguageSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75C07A5172DF91B00BF21A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75C07A6172DF91B00BF21A7 /* UIKit.framework */,
+				B75C07A8172DF91B00BF21A7 /* Foundation.framework */,
+				B75C07AA172DF91B00BF21A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B75C07AC172DF91B00BF21A7 /* STVisualFormatLanguageSample */ = {
+			isa = PBXGroup;
+			children = (
+				B75C07B5172DF91B00BF21A7 /* STAppDelegate.h */,
+				B75C07B6172DF91B00BF21A7 /* STAppDelegate.m */,
+				B75C07BE172DF91B00BF21A7 /* STViewController.h */,
+				B75C07BF172DF91B00BF21A7 /* STViewController.m */,
+				B75C07C1172DF91B00BF21A7 /* STViewController.xib */,
+				B7381195172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.h */,
+				B7381196172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.m */,
+				B7381190172E1ABF00EB6BC5 /* STWithXibViewController.h */,
+				B7381191172E1ABF00EB6BC5 /* STWithXibViewController.m */,
+				B7381192172E1ABF00EB6BC5 /* STWithXibViewController.xib */,
+				B738119E172E2ECA00EB6BC5 /* UIView+ST.h */,
+				B738119F172E2ECA00EB6BC5 /* UIView+ST.m */,
+				B75C07AD172DF91B00BF21A7 /* Supporting Files */,
+			);
+			name = STVisualFormatLanguageSample;
+			path = STVisualFormatLanguage;
+			sourceTree = "<group>";
+		};
+		B75C07AD172DF91B00BF21A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75C07AE172DF91B00BF21A7 /* STVisualFormatLanguageSample-Info.plist */,
+				B75C07AF172DF91B00BF21A7 /* InfoPlist.strings */,
+				B75C07B2172DF91B00BF21A7 /* main.m */,
+				B75C07B4172DF91B00BF21A7 /* STVisualFormatLanguageSample-Prefix.pch */,
+				B75C07B8172DF91B00BF21A7 /* Default.png */,
+				B75C07BA172DF91B00BF21A7 /* Default@2x.png */,
+				B75C07BC172DF91B00BF21A7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75C07A2172DF91B00BF21A7 /* STVisualFormatLanguageSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75C07C9172DF91B00BF21A7 /* Build configuration list for PBXNativeTarget "STVisualFormatLanguageSample" */;
+			buildPhases = (
+				B75C079F172DF91B00BF21A7 /* Sources */,
+				B75C07A0172DF91B00BF21A7 /* Frameworks */,
+				B75C07A1172DF91B00BF21A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STVisualFormatLanguageSample;
+			productName = STVisualFormatLanguage;
+			productReference = B75C07A3172DF91B00BF21A7 /* STVisualFormatLanguageSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75C079B172DF91B00BF21A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "MIYAMOTO, Hideaki";
+			};
+			buildConfigurationList = B75C079E172DF91B00BF21A7 /* Build configuration list for PBXProject "STVisualFormatLanguageSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B75C079A172DF91B00BF21A7;
+			productRefGroup = B75C07A4172DF91B00BF21A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75C07A2172DF91B00BF21A7 /* STVisualFormatLanguageSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75C07A1172DF91B00BF21A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75C07B1172DF91B00BF21A7 /* InfoPlist.strings in Resources */,
+				B75C07B9172DF91B00BF21A7 /* Default.png in Resources */,
+				B75C07BB172DF91B00BF21A7 /* Default@2x.png in Resources */,
+				B75C07BD172DF91B00BF21A7 /* Default-568h@2x.png in Resources */,
+				B75C07C3172DF91B00BF21A7 /* STViewController.xib in Resources */,
+				B7381194172E1ABF00EB6BC5 /* STWithXibViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75C079F172DF91B00BF21A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75C07B3172DF91B00BF21A7 /* main.m in Sources */,
+				B75C07B7172DF91B00BF21A7 /* STAppDelegate.m in Sources */,
+				B75C07C0172DF91B00BF21A7 /* STViewController.m in Sources */,
+				B7381193172E1ABF00EB6BC5 /* STWithXibViewController.m in Sources */,
+				B7381197172E1B3200EB6BC5 /* STVisualFormatLanguageViewController.m in Sources */,
+				B73811A0172E2ECA00EB6BC5 /* UIView+ST.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B75C07AF172DF91B00BF21A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75C07B0172DF91B00BF21A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B75C07C1172DF91B00BF21A7 /* STViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75C07C2172DF91B00BF21A7 /* en */,
+			);
+			name = STViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75C07C7172DF91B00BF21A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75C07C8172DF91B00BF21A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75C07CA172DF91B00BF21A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STVisualFormatLanguage/STVisualFormatLanguageSample-Prefix.pch";
+				INFOPLIST_FILE = "STVisualFormatLanguage/STVisualFormatLanguageSample-Info.plist";
+				PRODUCT_NAME = STVisualFormatLanguageSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B75C07CB172DF91B00BF21A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STVisualFormatLanguage/STVisualFormatLanguageSample-Prefix.pch";
+				INFOPLIST_FILE = "STVisualFormatLanguage/STVisualFormatLanguageSample-Info.plist";
+				PRODUCT_NAME = STVisualFormatLanguageSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75C079E172DF91B00BF21A7 /* Build configuration list for PBXProject "STVisualFormatLanguageSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C07C7172DF91B00BF21A7 /* Debug */,
+				B75C07C8172DF91B00BF21A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75C07C9172DF91B00BF21A7 /* Build configuration list for PBXNativeTarget "STVisualFormatLanguageSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C07CA172DF91B00BF21A7 /* Debug */,
+				B75C07CB172DF91B00BF21A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75C079B172DF91B00BF21A7 /* Project object */;
+}
